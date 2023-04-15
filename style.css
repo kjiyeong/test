@@ -1,30 +1,30 @@
-/*body::before {
+body::before {
     display: block;
     content: '';
     height: 40px;
-} */
+} 
 
-/*@media (max-width: 767px) {
-    .container {
-      padding-left: 32px;
-      padding-right: 32px;
+
+
+
+
+
+@media (min-width: 420px) { 
+    /* The body fixed the navbar that covers showcase container */
+    body {
+        padding-top: 25px;
     }
-  } */
-
-.showcase {
-    
-    /*margin-right: 50px; */
-    padding-right: 70px;
-
+    /* .showcase {
+        padding-top: 15px;
+    } */
+    /*.showcase2 {
+        font-size: 25px;
+    }
+    .lead {
+        font-size: 18px;
+    }*/
 }
 
-/*.d-sm-flex {
-    height: 450px;
-}*/
-/* unknown */
-/*.col-md-6 {
-    width: 500px;
-} */
 
 .img-hike {
     height: 450px;
