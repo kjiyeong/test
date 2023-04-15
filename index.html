@@ -298,6 +298,12 @@
     <div class="container">
         <h2 class="text-center text-light pb-5">Contact</h2>
       <form class="row g-3 text-light" action="https://formsubmit.co/914cd07a2c16f4450b1cbdc1c58745bd" method="POST">
+        <!-- Honeypot -->
+        <input type="text" name="_honey" style="display: none;">
+
+        <!-- Disable Captcha -->
+        <input type="text" name="_captcha" value="false">
+
         <div class="col-md-6 firstname">
           <label form="firstName" class="form-label">First Name</label>
           <input type="text" class="form-control" name="First Name" id="firstName" placeholder="First Name" required>
